@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title> Form </title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ 
+  <form method="post" action="contact.php">
+   
+    <label for="firstName"> First Name:</label>
+    <input type="text" id="firstname" name="firstname">
+    <br>
+    
+    <label for="lastName"> Last Name:</label>
+    <input type="text" id="lastname" name="lastname">
+    <br>
+    
+    <label for="email"> Email:</label>
+    <input type="text" id="email" name="email">
+    <br>
+    
+    <label for="telephone"> Telephone:</label>
+    <input type="text" id="telephone" name="telephone">
+    <br>
+    
+    
+    
+    <select name="plan" id="plan"> 
+        <option value="10gb"> 10GB </option>
+        <option value="20gb"> 20GB </option>
+        <option value="40gb"> 40GB </option>
+        <option value="60gb"> 60GB </option>
+    </select>
+    
+    <textarea name="comment" id="commentBox" cols="30" rows="10"> </textarea>
+    
+    <input type="submit" value="Submit" id="submitButton"> 
+    
+    </form>
+  
+
+</body>
+
+</html>
