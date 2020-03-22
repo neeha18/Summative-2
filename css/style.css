@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: beige;
+    padding: 30px;
+}
+
+input {
+    ;
+    font-size: 20px;
+    border: 2 solid red;
+    background-color: #e0e0e0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+
+select {
+    margin: 20px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+}
+
+textarea {
+    background-color: chartreuse;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#submitButton {
+    width: 150px;
+}
