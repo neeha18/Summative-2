@@ -3,173 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    
+
     <title>Mobile First</title>
     
+    <script src="https://kit.fontawesome.com/bbf84a20af.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
-    
+
     <link rel="stylesheet" href="css/normalize.css">
     
+    <script src="js/main.js"></script>
+
 </head>
+
 <body>
     <header>
+       
+       <!-- MOBILE MENU -->
+
+    <div id="menu">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">EVENT INFO</a></li>
+            <li><a href="#">OUR TEAM</a></li>
+            <li><a href="#">REGISTRATION INFO</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </div>
+    <!-- END OF MOBILE MENU -->
+       
         <nav>
             <img id="logo" src="images/logo.svg" alt="Logo">
-            
+
             <ul id="links">
-                <li>HOME</li>
-                <li>EVENT INFO</li>
-                <li>OUR TEAM</li>
-                <li>REGISTRATION INFO</li>
-                <li>CONTACT US</li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">EVENT INFO</a></li>
+                <li><a href="#">OUR TEAM</a></li>
+                <li><a href="#">REGISTRATION INFO</a></li>
+                <li><a href="#">CONTACT US</a></li>
             </ul>
             
+            <i id="navButton" class="fas fa-bars" onclick="toggleMenu()"></i>
+
         </nav>
         <article>
-        <h1 id="heading1">Landscape &amp; Gardening <br/>
-        Expo 2020</h1>
-        <h4>"International Exhibition on Nursery, Landscape, Gardening Methods, <br/>Indoor Plants &amp; Home Farming."</h4> 
-        <h5 id="button1"> BOOK NOW </h5>
+            <h1 id="heading1">Landscape &amp; Gardening <br />
+                Expo 2020</h1>
+            <h4>"International Exhibition on Nursery, Landscape, Gardening Methods, <br />Indoor Plants &amp; Home Farming."</h4>
+            <h5 id="button1"> BOOK NOW </h5>
         </article>
     </header>
-    
-    
+
+
     <main>
-    <section id="box1">
-        <div id="box1cont1">
-           <article id="b1c1">
-                <h2 id="heading2">We are delighted to announce that our Landscape &amp; Gardening Expo 2020 is being held in Auckland.</h2>
-                <p id="heading2para">Date: 2nd - 3rd May 2020 <br/>
-                Venue: Orakei Bay, 231 Orakei Rd, Remuera, Auckland <br/>
-                Organizer: Tipu Pvt. Ltd. (186A Henderson Valley Road, Henderson, Auckland 0612) <br/>
-                Phone:+64 2953 5593, 2953 5872 <br/>
-                Email: tipuexpo@gmail.com <br/>
-                Timings: 09:00am – 07:00pm</p>
-            </article>
-            <article id="b1img1">
-                <img src="images/homeImg1Mobile.jpg" alt="Image1">
-            </article>
-            <article id="b1c2">
-                <h2>About the Event:</h2>
-                <p>The Landscape &amp; Gardening Expo 2020 is a great platform for garden lovers to meet, interact and showcase their fruit of labour. Provides complete information about landscape &amp; green industry. Emphasizes on the importance of plants. Ideal destination for people to know about this field for better over view. You can visit this if you are planning to landscape your lawn, grow organic vegetables in your balcony or perhaps grow some flowering plants in your balcony. This is a one-stop destination for all gardening needs or for people to know about this field. 
-                </p>
-            </article>
-        </div>
-        <div>
-            <article id="box1img1">
-                <img src="images/homeImg1.jpg" alt="Image1">
-            </article>
-        </div>
-        </section>
-        
-        <section id="box2">
-        <div class="card" id="box2cont1">
-            <h2>Familiarize yourself with our Event: </h2>
-            <p>Tipu aim is to facilitate the diversification of Gardening and Landscaping. It will be an eye-opener for the landscape architects, growers, wholesalers, importers, exporters and all other stakeholders of every segment of landscaping, gardening equipment and allied sectors who want to expand and diversify their business and activities. It is a unique opportunity to launch your products &amp; services among thousands of people who will visit this expo.
-            </p>
-        </div>
-        <div class="card" id="b2img1">
-            <img src="images/homeImg3Mobile.jpg" alt=" Image3">
-        </div>
-        
-        <div class="card" id="box2cont2">
-           <article id="b2c2">
-            <h2>Why Auckland?</h2>
-            <p>In Auckland, a surging per capita income with changing and progressive lifestyle has led to a phenomenal increase in landscape and gardening market. A good aesthetically-appealing landscape is a desirable asset for any high value residential project. With busy and progressive lifestyle in Auckland there has been a phenomenal increase in landscape and gardening market. People these days have become more health conscious and desire to live a healthy lifestyle, therefore the flower pots are replaced by organically grown vegetables in balconies, a trend that makes the best use of space, however, constrained it may be, adds significantly to the city’s wellbeing, above and beyond the aesthetic and health-based aspect of growing plants.
-            </p>
-            </article>
-            <article id="b2img2">
-                <img src="images/homeImg2Mobile.jpg" alt=" Image3">
-            </article>
-        </div>
-        <div class="card" id="box2img1">
-            <img src="images/homeImg3.jpg" alt=" Image2">
-        </div>
-        </section>
-        
-        <section id=box2card2> </section>
-        
-        <section id="box3">
-        <div class="card" id="box3heading1">
-            <h2 id="box3h1">Our Team:</h2>
-        </div>
-        
-        <section id="ourTeam">
-        <div class="card" id="box3img1">
-           <article>
-            <img src="images/homeImg4Mobile.png" alt=" Image3">
-           </article>
-           <article>
-            <h3>John Herman </h3>
-            <p id="box3p">Co-founder</p>
-           </article>
-        </div>
-        <div class="card" id="box3img2">
-           <article>
-            <img src="images/homeImg4Mobile.png" alt=" Image3">
-           </article>
-           <article>
-            <h3>William Brady </h3>
-            <p id="box3p">Gardener</p>
-           </article>
-        </div>
-        <div class="card" id="box3img3">
-           <article>
-            <img src="images/homeImg4Mobile.png" alt=" Image3">
-           </article>
-           <article>
-            <h3>Jessica Anderson </h3>
-            <p id="box3p">Conservation Specialist</p>
-           </article>
-        </div>
-        <div class="card" id="box3img4">
-           <article>
-            <img src="images/homeImg4Mobile.png" alt=" Image3">
-           </article>
-           <article>
-            <h3>Lucas Adler</h3>
-            <p id="box3p">Assistant</p>
-           </article>
-        </div>
-        </section>
-        
-        <div>
-           <article id="button2"> READ MORE  </article> 
-        </div>
-        </section>
-        
-        <section id="box4">
-        <div class="card" id="box3heading1">
-            <h2 id="box3h1">Proud to be Sponsored by:</h2>
-        </div>
-        <div class="card" id="box4logos">
-          <article id="b4logo">
-           <img src="images/sponsor1.jpg" alt=""> </article>
-           <article id="b4logo">
-           <img src="images/sponsor2.jpg" alt=""> </article>
-           <article id="b4logo">
-           <img src="images/sponsor3.jpg" alt=""> </article>
-           <article id="b4logo">
-           <img src="images/sponsor4.jpg" alt=""> </article>
-           <article id="b4logo">
-           <img src="images/sponsor5.jpg" alt=""> </article>
-        </div>
-        
-        </section>
-    
-    </main>
-    
-    <footer>
-        <section id="footerBox1">
-        <div >
+       
+        <div id="fix">
+            <section id="box1">
+                <div id="box1cont1">
+                    <article id="b1c1">
+                        <h2 id="heading2">We are delighted to announce that our Landscape &amp; Gardening Expo 2020 is being held in Auckland.</h2>
+                        <p id="heading2para">Date: 2nd - 3rd May 2020 <br />
+                            Venue: Orakei Bay, 231 Orakei Rd, Remuera, Auckland <br />
+                            Organizer: Tipu Pvt. Ltd. (186A Henderson Valley Road, Henderson, Auckland 0612) <br />
+                            Phone:+64 2953 5593, 2953 5872 <br />
+                            Email: tipuexpo@gmail.com <br />
+                            Timings: 09:00am – 07:00pm</p>
+                    </article>
+                    <article id="b1img1Mob">
+                        <img src="images/homeImg1Mobile.jpg" alt="Image1">
+                    </article>
+                    <article id="b1c2">
+                        <h2>About the Event:</h2>
+                        <p>The Landscape &amp; Gardening Expo 2020 is a great platform for garden lovers to meet, interact and showcase their fruit of labour. Provides complete information about landscape &amp; green industry. Emphasizes on the importance of plants. Ideal destination for people to know about this field for better over view. You can visit this if you are planning to landscape your lawn, grow organic vegetables in your balcony or perhaps grow some flowering plants in your balcony. This is a one-stop destination for all gardening needs or for people to know about this field.
+                        </p>
+                    </article>
+                </div>
             
-        </div>    
+                <div>
+                   
+                    <article id="box1img1">
+                        <img src="images/homeImg1.jpg" alt="Image1">
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <section id="box2">
+            <div class="card" id="box2cont1">
+                <h2>Familiarize yourself with our Event: </h2>
+                <p>Tipu aim is to facilitate the diversification of Gardening and Landscaping. It will be an eye-opener for the landscape architects, growers, wholesalers, importers, exporters and all other stakeholders of every segment of landscaping, gardening equipment and allied sectors who want to expand and diversify their business and activities. It is a unique opportunity to launch your products &amp; services among thousands of people who will visit this expo.
+                </p>
+            </div>
+            <div class="card" id="b2img1">
+                <img src="images/homeImg3Mobile.jpg" alt=" Image3">
+            </div>
+
+            <div class="card" id="box2cont2">
+                <article id="b2c2">
+                    <h2>Why Auckland?</h2>
+                    <p>In Auckland, a surging per capita income with changing and progressive lifestyle has led to a phenomenal increase in landscape and gardening market. A good aesthetically-appealing landscape is a desirable asset for any high value residential project. With busy and progressive lifestyle in Auckland there has been a phenomenal increase in landscape and gardening market. People these days have become more health conscious and desire to live a healthy lifestyle, therefore the flower pots are replaced by organically grown vegetables in balconies, a trend that makes the best use of space, however, constrained it may be, adds significantly to the city’s wellbeing, above and beyond the aesthetic and health-based aspect of growing plants.
+                    </p>
+                </article>
+                <article id="b2img2">
+                    <img src="images/homeImg2Mobile.jpg" alt=" Image3">
+                </article>
+            </div>
+            <div class="card" id="box2img1">
+                <img src="images/homeImg3.jpg" alt=" Image2">
+            </div>
+        </section>
+
+        <section id="box3">
+            <div class="card" id="box3heading1">
+                <h2 id="box3h1">Our Team:</h2>
+            </div>
+
+            <section id="ourTeam">
+                <div class="card" id="box3img1">
+                    <article>
+                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                    </article>
+                    <article>
+                        <h3>John Herman </h3>
+                        <p id="box3p">Co-founder</p>
+                    </article>
+                </div>
+                <div class="card" id="box3img2">
+                    <article>
+                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                    </article>
+                    <article>
+                        <h3>William Brady </h3>
+                        <p id="box3p">Gardener</p>
+                    </article>
+                </div>
+                <div class="card" id="box3img3">
+                    <article>
+                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                    </article>
+                    <article>
+                        <h3>Jessica Anderson </h3>
+                        <p id="box3p">Conservation Specialist</p>
+                    </article>
+                </div>
+                <div class="card" id="box3img4">
+                    <article>
+                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                    </article>
+                    <article>
+                        <h3>Lucas Adler</h3>
+                        <p id="box3p">Assistant</p>
+                    </article>
+                </div>
+            </section>
+
+            <div>
+               <article id="space">  
+               </article>
+                <article id="button2"> READ MORE </article>
+            </div>
+        </section>
+
+        <section id="box4">
+            <div class="card" id="box4heading1">
+                <h2 id="box4h1">Proud to be Sponsored by:</h2>
+            </div>
+            <div class="card" id="box4logos">
+                <article id="b4logo">
+                    <img src="images/sponsor1.jpg" alt=""> </article>
+                <article id="b4logo">
+                    <img src="images/sponsor2.jpg" alt=""> </article>
+                <article id="b4logo">
+                    <img src="images/sponsor3.jpg" alt=""> </article>
+                <article id="b4logo">
+                    <img src="images/sponsor4.jpg" alt=""> </article>
+                <article id="b4logo5">
+                    <img src="images/sponsor5.jpg" alt=""> </article>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section id="footerMob">
+            <div id="footerMobBox1">
+             <article>
+              <h5 id="footerHeaderMob">Learn about Tipu</h5>
+              <p id="footerMP"> Home | Code of Conduct | Resources | News | Spotlights | Highlights </p>
+             </article>
+             <article>
+               <h5 id="footerHeaderMob">Attend Tipu</h5>
+               <p id="footerMP"> Event Info | Our Team | Registration Info | <br/> Why You Should Attend | Who Attends Tipu </p>
+             </article>
+             <article>
+               <h5 id="footerHeaderMob">Connect with Tipu</h5>
+               <p id="footerMP"> Contact Us | Sign Up for Email Alerts</p>
+             </article>
+             <article >
+               <h5 id="footerHeaderMob">Follow us on:</h5>
+               <article id="footerIconsMob">
+               <img id="footerIcons" src="images/fbIcon.svg" alt="">
+               <img id="footerIcons" src="images/instaIcon.svg" alt="">
+               <img id="footerIcons" src="images/twitterIcon.svg" alt="">
+               </article>
+             </article>
+             <article>
+                 <hr class="line">
+                 <p id="footer2Mob"> Copyright © 2020 Rasya. The content on this website is owned by us and out licensors. Do not copy any content (including images) without our consent.</p>
+             </article>
+            </div>
         </section>
         
+        <section id="footerDesktop">
+            <div id="footerDeskBox1">
+             <article>
+              <h5 id="footerHeaderDesk">Learn about Tipu</h5>
+              <p id="footerDP"> Home<br/>Code of Conduct<br/>Resources<br/>News<br/>Spotlights<br/>Highlights </p>
+             </article>
+             <article>
+               <h5 id="footerHeaderDesk"> Attend Tipu</h5>
+               <p id="footerDP">Event Info<br/>Our Team<br/>Registration Info<br/> Why You Should Attend<br/>Who Attends Tipu</p>
+             </article>
+             <article>
+               <h5 id="footerHeaderDesk">Connect with Tipu</h5>
+               <p id="footerDP"> Contact Us<br/>Sign Up for Email Alerts</p>
+             </article>
+             <article >
+               <h5 id="footerHeaderDesk">Follow us on:</h5>
+               <article id="footerSpace"></article>
+               <article id="footerIconsDesk">
+               <img id="footerIconsD" src="images/fbIcon.svg" alt="">
+               <img id="footerIconsD" src="images/instaIcon.svg" alt="">
+               <img id="footerIconsD" src="images/twitterIcon.svg" alt="">
+               </article>
+             </article>
+            </div>
+             <div id="footerDeskBox2">
+                <article>
+                 <hr class="lineDesk">
+                 <p id="footer2Desk"> Copyright © 2020 Rasya. The content on this website is owned by us and out licensors. Do not copy any content (including images) without our consent.</p>
+             </article>
+            </div>
+        </section>
+
     </footer>
-</body>
-</html>
+</body></html>
