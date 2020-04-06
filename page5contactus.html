@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Mobile First</title>
+    
+    <script src="https://kit.fontawesome.com/bbf84a20af.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/page5style.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <header>
+       
+       <!-- MOBILE MENU -->
+
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="page2eventinfo.html">EVENT INFO</a></li>
+            <li><a href="page3ourevent.html">OUR TEAM</a></li>
+            <li><a href="page4registrationInfo.html">REGISTRATION INFO</a></li>
+            <li><a class="active" href="page5contactus.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <!-- END OF MOBILE MENU -->
+       
+        <nav>
+            <img id="logo" src="images/logo.svg" alt="Logo">
+
+            <ul id="links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="page2eventinfo.html">EVENT INFO</a></li>
+                <li><a href="page3ourevent.html">OUR TEAM</a></li>
+                <li><a href="page4registrationInfo.html">REGISTRATION INFO</a></li>
+                <li><a class="active" href="page5contactus.html">CONTACT US</a></li>
+            </ul>
+            
+            <i id="navButton" class="fas fa-bars" onclick="toggleMenu()"></i>
+
+        </nav>
+        <article>
+            <h1 id="heading1">Contact us</h1>
+            <h4>We’d love to hear from you. Whether you have a question about the event <br/>or if you don’t find what you need.</h4>
+            <h5 id="button1"> <a href="#"> BOOK NOW </a></h5>
+        </article>
+    </header>
+
+    
+<!--HEADER END-->
+    
+
+    <main>  
+        <section id="box1">
+           <article id="b1c1">
+                    <h2>Tipu Pvt. Ltd.</h2>
+            </article>
+                       
+            <div id="box1cont1">
+                   <article id="box1para">   
+                    <p id="b1p1"><mark>Address: </mark> 186A Henderson Valley Road, Henderson, Auckland 0612 </p>
+                
+                    <p id="b1p1"><mark>Phone:</mark> +64 2953 5593, 2953 5872
+                    </p>
+                    
+                    <p id="b1p1"><mark>Email:</mark> tipuexpo@gmail.com
+                    </p>
+                 </article> 
+                 <article id="box1img1">
+                     <img src="images/contactImg1.png" alt="Image1">   
+                 </article>    
+                </div>
+            </section>
+            
+            <section id="box2">
+            <div id="box2cont1">
+                 <article id="b2c1">
+                    <h2>Contact Us:</h2>
+                    </article>
+                    
+                    <article> 
+                        <form method="post" action="contact.php">
+   
+                        <label for="firstName">Name:</label>
+                        <input type="text" id="firstname" name="firstname">
+                        <br>
+    
+                        <label for="lastName"> Email:</label>
+                        <input type="text" id="lastname" name="lastname">
+                        <br>
+    
+                        <label for="email"> Phone Number:</label>
+                        <input type="text" id="email" name="email">
+                        <br>
+    
+                        <label for="telephone"> Product Description:</label>
+                        <input type="text" id="telephone" name="telephone">
+                        <br>
+                        
+                        <label for="telephone"> Message:</label>
+                        <textarea name="comment" id="commentBox" cols="30" rows="10"> </textarea>
+    
+                        <input type="submit" value="Submit" id="submitButton"> 
+    
+                        </form>
+                    </article>
+                    
+                </div>
+            </section>                        
+    </main>
+    
+    
+
+    <footer>
+        <section id="footerMob">
+            <div id="footerMobBox1">
+             <article>
+              <h5 id="footerHeaderMob">Learn about Tipu</h5>
+                 <p id="footerMP"> <a href="#">Home</a> | <a href="#">Code of Conduct</a> | <a href="#">Resources</a> | <a href="#">News</a> | <a href="#">Spotlights</a> | <a href="#">Highlights</a> </p>
+             </article>
+             <article>
+               <h5 id="footerHeaderMob">Attend Tipu</h5>
+                 <p id="footerMP"> <a href="#">Event Info</a> | <a href="#">Our Team</a> | <a href="#">Registration Info</a> | <br/> <a href="#">Why You Should Attend</a> | <a href="#">Who Attends Tipu</a> </p>
+             </article>
+             <article>
+               <h5 id="footerHeaderMob">Connect with Tipu</h5>
+                 <p id="footerMP"> <a href="#">Contact Us</a> | <a href="#">Sign Up for Email Alerts</a> </p>
+             </article>
+             <article >
+               <h5 id="footerHeaderMob">Follow us on:</h5>
+               <article id="footerIconsMob">
+               <img id="footerIcons" src="images/fbIcon.svg" alt="">
+               <img id="footerIcons" src="images/instaIcon.svg" alt="">
+               <img id="footerIcons" src="images/twitterIcon.svg" alt="">
+               </article>
+             </article>
+             <article>
+                 <hr class="line">
+                 <p id="footer2Mob"> Copyright © 2020 Rasya. The content on this website is owned by us and out licensors. Do not copy any content (including images) without our consent.</p>
+             </article>
+            </div>
+        </section>
+        
+        <section id="footerDesktop">
+            <div id="footerDeskBox1">
+             <article>
+              <h5 id="footerHeaderDesk">Learn about Tipu</h5>
+                 <p id="footerDP"> <a href="#">Home</a><br/> <a href="#">Code of Conduct</a><br/><a href="#">Resources</a><br/><a href="#">News</a> <br/> <a href="#">Spotlights</a> <br/> <a href="#">Highlights </a> </p>
+             </article>
+             <article>
+               <h5 id="footerHeaderDesk"> Attend Tipu</h5>
+                 <p id="footerDP"><a href="#">Event Info</a> <br/><a href="#">Our Team</a><br/> <a href="#">Registration Info </a> <br/> <a href="#">Why You Should Attend</a> <br/> <a href="#"> Who Attends Tipu</a> </p>
+             </article>
+             <article>
+               <h5 id="footerHeaderDesk">Connect with Tipu</h5>
+                 <p id="footerDP"> <a href="#">Contact Us</a> <br/><a href="#"> Sign Up for Email Alerts</a> </p>
+             </article>
+             <article >
+               <h5 id="footerHeaderDesk">Follow us on:</h5>
+               <article id="footerSpace"></article>
+               <article id="footerIconsDesk">
+               <img id="footerIconsD" src="images/fbIcon.svg" alt="">
+               <img id="footerIconsD" src="images/instaIcon.svg" alt="">
+               <img id="footerIconsD" src="images/twitterIcon.svg" alt="">
+               </article>
+             </article>
+            </div>
+             <div id="footerDeskBox2">
+                <article>
+                 <hr class="lineDesk">
+                 <p id="footer2Desk"> Copyright © 2020 Tipu. The content on this website is owned by us and out licensors. Do not copy any content (including images) without our consent.</p>
+             </article>
+            </div>
+        </section>
+
+    </footer>
+</body></html>

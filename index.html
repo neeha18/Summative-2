@@ -27,11 +27,11 @@
 
     <div id="menu">
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">EVENT INFO</a></li>
-            <li><a href="#">OUR TEAM</a></li>
-            <li><a href="#">REGISTRATION INFO</a></li>
-            <li><a href="#">CONTACT US</a></li>
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="page2eventinfo.html">EVENT INFO</a></li>
+            <li><a href="page3ourevent.html">OUR TEAM</a></li>
+            <li><a href="page4registrationInfo.html">REGISTRATION INFO</a></li>
+            <li><a href="page5contactus.html">CONTACT US</a></li>
         </ul>
     </div>
     <!-- END OF MOBILE MENU -->
@@ -40,11 +40,11 @@
             <img id="logo" src="images/logo.svg" alt="Logo">
 
             <ul id="links">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">EVENT INFO</a></li>
-                <li><a href="#">OUR TEAM</a></li>
-                <li><a href="#">REGISTRATION INFO</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="page2eventinfo.html">EVENT INFO</a></li>
+                <li><a href="page3ourevent.html">OUR TEAM</a></li>
+                <li><a href="page4registrationInfo.html">REGISTRATION INFO</a></li>
+                <li><a href="page5contactus.html">CONTACT US</a></li>
             </ul>
             
             <i id="navButton" class="fas fa-bars" onclick="toggleMenu()"></i>
@@ -54,43 +54,47 @@
             <h1 id="heading1">Landscape &amp; Gardening <br />
                 Expo 2020</h1>
             <h4>"International Exhibition on Nursery, Landscape, Gardening Methods, <br />Indoor Plants &amp; Home Farming."</h4>
-            <h5 id="button1"> BOOK NOW </h5>
+            <h5 id="button1"> <a href="#"> BOOK NOW </a> </h5>
         </article>
     </header>
 
+    <!--HEADER END-->
+    
 
     <main>
        
-        <div id="fix">
-            <section id="box1">
+        <section id="box1">
                 <div id="box1cont1">
-                    <article id="b1c1">
-                        <h2 id="heading2">We are delighted to announce that our Landscape &amp; Gardening Expo 2020 is being held in Auckland.</h2>
-                        <p id="heading2para">Date: 2nd - 3rd May 2020 <br />
-                            Venue: Orakei Bay, 231 Orakei Rd, Remuera, Auckland <br />
-                            Organizer: Tipu Pvt. Ltd. (186A Henderson Valley Road, Henderson, Auckland 0612) <br />
-                            Phone:+64 2953 5593, 2953 5872 <br />
-                            Email: tipuexpo@gmail.com <br />
-                            Timings: 09:00am – 07:00pm</p>
-                    </article>
-                    <article id="b1img1Mob">
-                        <img src="images/homeImg1Mobile.jpg" alt="Image1">
-                    </article>
-                    <article id="b1c2">
+                   
+                   <article id="box1card1">
+                       <h2 id="heading2">We are delighted to announce that our Landscape &amp; Gardening Expo 2020 is being held in Auckland.</h2>
+                       <p id="heading2para">
+                           <mark>Date: </mark> 2nd - 3rd May 2020 <br />
+                           <mark>Entry Ticket Price: </mark> 15$ for Adults, 5$ for Children &amp; Senior Citizens <br />
+                            <mark>Venue:</mark> Orakei Bay, 231 Orakei Rd, Remuera, Auckland <br />
+                            <mark>Organizer: </mark> Tipu Pvt. Ltd. (186A Henderson Valley Road, Henderson, Auckland 0612) <br />
+                            <mark>Phone: </mark> +64 2953 5593, 2953 5872 <br />
+                            <mark>Email: </mark> tipuexpo@gmail.com <br />
+                            <mark>Timings: </mark> 09:00am – 07:00pm</p>
+                   </article>
+                   
+                   <article id="box1card2">
+                      <img src="images/homeImg1.jpg" alt="Image1">
+                       
+                   </article>
+                    
+                    <article id="box1card3">
                         <h2>About the Event:</h2>
-                        <p>The Landscape &amp; Gardening Expo 2020 is a great platform for garden lovers to meet, interact and showcase their fruit of labour. Provides complete information about landscape &amp; green industry. Emphasizes on the importance of plants. Ideal destination for people to know about this field for better over view. You can visit this if you are planning to landscape your lawn, grow organic vegetables in your balcony or perhaps grow some flowering plants in your balcony. This is a one-stop destination for all gardening needs or for people to know about this field.
+                       <p>The Landscape &amp; Gardening Expo 2020 is a great platform for garden lovers to meet, interact and showcase their fruit of labour. Provides complete information about landscape &amp; green industry. Emphasizes on the importance of plants. Ideal destination for people to know about this field for better over view. You can visit this if you are planning to landscape your lawn, grow organic vegetables in your balcony or perhaps grow some flowering plants in your balcony. This is a one-stop destination for all gardening needs or for people to know about this field.
                         </p>
                     </article>
-                </div>
-            
-                <div>
-                   
-                    <article id="box1img1">
-                        <img src="images/homeImg1.jpg" alt="Image1">
+                
+                    <article id="box1card4">
+                        
                     </article>
+               
                 </div>
             </section>
-        </div>
 
         <section id="box2">
             <div class="card" id="box2cont1">
@@ -109,7 +113,7 @@
                     </p>
                 </article>
                 <article id="b2img2">
-                    <img src="images/homeImg2Mobile.jpg" alt=" Image4">
+                    <img src="images/homeImg3.jpg" alt=" Image4">
                 </article>
             </div>
         </section>
@@ -123,7 +127,7 @@
             <section id="ourTeam">
                 <div class="card" id="box3img1">
                     <article>
-                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                        <img src="images/homeTeam1.png" alt=" Image3">
                     </article>
                     <article>
                         <h3>John Herman </h3>
@@ -132,7 +136,7 @@
                 </div>
                 <div class="card" id="box3img2">
                     <article>
-                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                        <img src="images/homeTeam2.png" alt=" Image3">
                     </article>
                     <article>
                         <h3>William Brady </h3>
@@ -141,19 +145,19 @@
                 </div>
                 <div class="card" id="box3img3">
                     <article>
-                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                        <img src="images/homeTeam3.png" alt=" Image3">
                     </article>
                     <article>
                         <h3>Jessica Anderson </h3>
-                        <p id="box3p">Conservation Specialist</p>
+                        <p id="box3p">Marketing</p>
                     </article>
                 </div>
                 <div class="card" id="box3img4">
                     <article>
-                        <img src="images/homeImg4Mobile.png" alt=" Image3">
+                        <img src="images/homeTeam4.png" alt=" Image3">
                     </article>
                     <article>
-                        <h3>Lucas Adler</h3>
+                        <h3>Lucy Adler</h3>
                         <p id="box3p">Assistant</p>
                     </article>
                 </div>
@@ -162,7 +166,7 @@
             <div>
                <article id="space">  
                </article>
-                <article id="button2"> READ MORE </article>
+                <article id="button2"> <a href="page3ourevent.html"> READ MORE </a> </article>
             </div>
         </section>
 
@@ -192,15 +196,15 @@
             <div id="footerMobBox1">
              <article>
               <h5 id="footerHeaderMob">Learn about Tipu</h5>
-              <p id="footerMP"> Home | Code of Conduct | Resources | News | Spotlights | Highlights </p>
+                 <p id="footerMP"> <a href="#">Home</a> | <a href="#">Code of Conduct</a> | <a href="#">Resources</a> | <a href="#">News</a> | <a href="#">Spotlights</a> | <a href="">Highlights</a> </p>
              </article>
              <article>
                <h5 id="footerHeaderMob">Attend Tipu</h5>
-               <p id="footerMP"> Event Info | Our Team | Registration Info | <br/> Why You Should Attend | Who Attends Tipu </p>
+                 <p id="footerMP"> <a href="#">Event Info</a> | <a href="#">Our Team</a> | <a href="#">Registration Info</a> | <br/> <a href="#">Why You Should Attend</a> | <a href="#">Who Attends Tipu</a> </p>
              </article>
              <article>
                <h5 id="footerHeaderMob">Connect with Tipu</h5>
-               <p id="footerMP"> Contact Us | Sign Up for Email Alerts</p>
+                 <p id="footerMP"> <a href="#">Contact Us</a> | <a href="#">Sign Up for Email Alerts</a> </p>
              </article>
              <article >
                <h5 id="footerHeaderMob">Follow us on:</h5>
@@ -221,15 +225,15 @@
             <div id="footerDeskBox1">
              <article>
               <h5 id="footerHeaderDesk">Learn about Tipu</h5>
-              <p id="footerDP"> Home<br/>Code of Conduct<br/>Resources<br/>News<br/>Spotlights<br/>Highlights </p>
+                 <p id="footerDP"> <a href="#">Home</a><br/> <a href="#">Code of Conduct</a><br/><a href="#">Resources</a><br/><a href="#">News</a> <br/> <a href="#">Spotlights</a> <br/> <a href="#">Highlights </a> </p>
              </article>
              <article>
                <h5 id="footerHeaderDesk"> Attend Tipu</h5>
-               <p id="footerDP">Event Info<br/>Our Team<br/>Registration Info<br/> Why You Should Attend<br/>Who Attends Tipu</p>
+                 <p id="footerDP"><a href="#">Event Info</a> <br/><a href="#">Our Team</a><br/> <a href="#">Registration Info </a> <br/> <a href="#">Why You Should Attend</a> <br/> <a href="#"> Who Attends Tipu</a> </p>
              </article>
              <article>
                <h5 id="footerHeaderDesk">Connect with Tipu</h5>
-               <p id="footerDP"> Contact Us<br/>Sign Up for Email Alerts</p>
+                 <p id="footerDP"> <a href="#">Contact Us</a> <br/><a href="#"> Sign Up for Email Alerts</a> </p>
              </article>
              <article >
                <h5 id="footerHeaderDesk">Follow us on:</h5>

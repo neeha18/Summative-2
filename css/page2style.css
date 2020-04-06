@@ -18,16 +18,17 @@ img {
 body {
     margin: 0;
     background-color: white;
-    background-image: url(../images/homeBannerMobile.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    
 }
 
 /*----NAVIGATION AND HEADER----*/
 
 header {
-    max-height: 450px;
+    max-height: 356px;
     padding: 31px 31px 80px 31px;
+    background-image: url(../images/ourTeamBannerMob.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     overflow: hidden;
 }
 
@@ -70,7 +71,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: px;
+    margin-right: ;
 }
 
 nav ul li:last-child {
@@ -95,7 +96,6 @@ nav ul li a {
     position: absolute;
     width: 100%;
     top: 80px;
-    font-size: 0.8rem;
 }
 
 #menu li a:hover {
@@ -105,6 +105,7 @@ nav ul li a {
 #menu li .active {
     color: #b9d480;
 }
+
 
 
 .displayMenu {
@@ -125,19 +126,20 @@ nav ul li a {
 }
 
 #menu li {
+
     display: flex;
     justify-content: center;
     align-items: center;
 
 
     height: auto;
-    background-color: #1E3621;
+    background-color: #2a442e;
 }
 
 #menu a {
     color: white;
     text-decoration: none;
-    background-color: #1E3621;
+    background-color: #2a442e;
 
 }
 
@@ -170,7 +172,7 @@ nav ul li a {
 /* TYPOGRAPHY */
 
 #heading1 {
-    margin: 90px 0 0 0;
+    margin: 60px 0 0 0;
     text-align: center;
     font-size: 2.2rem;
     font-family: 'Bebas Neue', cursive;
@@ -191,33 +193,23 @@ h4 {
     line-height: 1.375rem;
 }
 
-
-/*----MAIN----*/
-
-
 #heading2 {
-    color: white;
+    color: black;
     line-height: 1.6rem;
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
+    margin: 30px 0 10px 0;
 }
 
 #heading2para {
-    color: white;
-    margin-top: 10px;
+    color: black;
+    margin: 5px 0 20px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     line-height: 1.375rem;
     font-weight: 400;
     text-align: center;
-}
-
-mark {
-    background-color: #6FC656;
-    color: white;
-    font-weight: 600;
-    font-size: 1rem;
 }
 
 h2 {
@@ -231,11 +223,12 @@ h2 {
 }
 
 h3 {
-    margin: 15px 0 0 0;
-    text-align: center;
+    margin: 30px 0 25px 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.99rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     font-weight: 600;
+    
 }
 
 p {
@@ -247,17 +240,10 @@ p {
     font-weight: 400;
 }
 
-#box3h1 {
-    text-align: center;
-}
+
 
 #box3p {
-    text-align: center;
-    font-size: 0.79rem;
-}
-
-#box4h1 {
-    text-align: center;
+    font-size: 1rem;
 }
 
 
@@ -265,73 +251,76 @@ p {
 
 #box1 {
     background-color: white;
-    padding: 40px 31px;
+    padding: 10px 31px;
 }
 
-#box1card1{
-        background-image: url(../images/homeImg3.png);
-    padding:  30px;
-    margin-bottom: 40px;
+#b1c1 {
+    margin-bottom: 45px;
+    margin-top: 0px;
 }
 
-#box1card2 {
-    margin-bottom: 40px;
-}
-
-#box1card4 {
-    margin-bottom: 10px;
+##b1img1Ipad {
+    margin-top: 50px;
 }
 
 
 #box2 {
-    background-color: #FDF3F2;
-    padding: 31px 31px 0px 31px;
+    padding: 20px 31px;
 }
 
-#box2cont1 {
-    margin-top: 20px;
+#box2cont {
     margin-bottom: 40px;
 }
 
-#b2img1 {
-    margin-bottom: 50px;
-}
+#box2card2 {
+        margin-bottom: 30px;
+    }
 
-#box2cont2 {
-    margin-top: 0;
+#b2c2 {
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
-#b2img2 {
-    padding-bottom: 60px;
+
+#b2bullets li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-right: 0px;
 }
 
-#b2c2 {
-    margin-bottom: 40px
-}
-
-#box2card2 {
-    display: none;
-}
 
 #box3 {
-    background-color: white;
-    padding: 5px 31px 0px 31px;
+    background-color: #FDF3F2;
+    padding: 20px 31px 0px 31px;
 }
 
 #box3heading1 {
     margin-bottom: 30px;
 }
 
-#ourTeam {
+#whyAttend {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     grid-gap: 20px;
 }
 
 #box3img1 {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+#box3img2 {
+    margin-bottom: 20px;
+}
+
+#box3img3 {
+    margin-bottom: 20px;
+}
+
+#box3img4 {
+    margin-bottom: 40px;
 }
 
 #box3h1 {
@@ -339,69 +328,10 @@ p {
 }
 
 #box3p {
-    margin: 0px 0 10px 0;
-}
-
-#space {
-    background-color: white;
-    height: 20px;
-}
-
-#button2 {
-    background-color: #D98F76;
-    color: white;
-    width: 120px;
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.1;
-    font-weight: 600;
-    border-radius: 5px;
-}
-
-#button2 a {
-    color: white;
-    text-decoration: none;
-}
-
-#button2 a:hover {
-    color: #22452d;
-}
-
-/*----SPONSORS----*/
-
-#box4 {
-    background-color: white;
-    padding: 41px 31px 0px 31px;
-    margin: 0 auto;
+    margin: 0px 0 20px 0;
 }
 
 
-#box4logos {
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#b4logo {
-    width: 45%;
-    margin: 0px;
-}
-
-#b4logo4 {
-    width: 38%;
-    margin: 0px;
-}
-
-#b4logo5 {
-    width: 38%;
-    margin: 0px 0 50px 0;
-}
 
 /*----FOOTER----*/
 
@@ -445,8 +375,6 @@ p {
     margin: 15px 15px 0px 0;
     width: 15%;
 }
-
-
 
 .line {
     margin: 0 auto;
@@ -519,8 +447,8 @@ p {
     header {
         max-height: none;
         padding: 30px 90px 20px 90px;
-        height: 580px;
-        background-image: url(../images/homeBannerIpad.jpg);
+        height: 507px;
+        background-image: url(../images/eventInfoBannerIpad.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -548,6 +476,8 @@ p {
     #heading2 {
         line-height: 1.8rem;
         font-size: 1.2rem;
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 
     #heading2para {
@@ -556,12 +486,21 @@ p {
     }
     
     h3 {
-        font-size: 0.95rem;
+        font-size: 0.94rem;
+        line-height: 1.5rem;
         font-weight: 600;
+        margin-top: 20px
+    }
+    
+    p {
+        line-height: 1.7rem;
     }
     
     #box3p {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        text-align: left;
+        margin-top: 30px
     }
 
     /*-----MAIN----*/
@@ -570,97 +509,44 @@ p {
         margin-bottom: 0px;
         margin-top: 0px;
     }
+    
 
     #box1 {
-        padding: 50px 90px 0 90px; 
+        padding: 70px 90px 0 90px;
+        margin: 0 auto;
     }
     
-
     #box1cont1 {
-        display: grid;
-        grid-gap: 3vw; 
-        position: relative;
-        transform: translate(0%, -10%);
-    }
-
-    #box1card1{
-        background-image: url(../images/homeImg3.png);
-        grid-column: 1 / span 6;
-        grid-row: 1 / span 6;
-        padding:4vh ;    
-    }
-
-    #box1card3 {
-        display: block;
-        grid-column: 1 / span 6;
-        grid-row: 6 / span 6;
-        margin-bottom: 0px;
-        padding-right: 10vw;
-        padding-top: 8vh;
-        margin-top: 2vh;
-    }
-
-    #box1card4 {
-        display: block;
-        margin-bottom: 0px;
-        grid-column: 5 / span 6;
-        grid-row: 1 / span 6;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-gap: 4vw;
     }
     
-    #box1card2{
-        grid-column: 6 / span 6;
-        grid-row: 6 / span 6;
-        padding-top: 0px;
-        padding-left: 0px;
+    #b1c1 {
         margin-bottom: 0px;
     }
     
+    #b1img1Ipad {
+        margin-top: 0px;
+    }
     
 
     #box2 {
-        padding: 50px 90px;
+        padding: 60px 90px 0 90px;
         
-    }
-
-    #box2cont1 {
-        margin-bottom: 60px;
-    }
-
-    #b2img1 {
-        display: none;
-    }
-
-    #box2cont2 {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 4vw;
-    }
-
-    #b2c2 {
-        grid-column: 1/3;
-        margin-bottom: 0;
-    }
-
-    #b2img2 {
-        display: block;
-        grid-column: 3/5;
-    }
-
-    #box2cont2 {
-        grid-column: 1/3;
-    }
-
-
-    #b2c2 {
-        padding-bottom: 40px;
     }
     
     #box2card2 {
-        display: none;
-     }
+        margin-bottom: 60px;
+    }
+    
+    #b2c2 {
+        margin-bottom: 30px;
+    }
 
+    
     #box3 {
-        padding: 20px 90px;
+        padding: 60px 90px 40px 90px;
     }
     
     #box3heading1 {
@@ -668,10 +554,11 @@ p {
      }
 
     #box3h1 {
-        padding-bottom: 30px;
+        margin-top: 0px;
+        padding-bottom: 40px;
     }
 
-    #ourTeam {
+    #whyAttend {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
@@ -681,43 +568,11 @@ p {
 
     #box3img1 {
         margin-top: 0;
-        margin-bottom: 20px;
     }
 
-
-    #box4 {
-        background-color: white;
-        padding: 50px 90px 40px 90px;
-    }
-    
-    #box4h1 {
-        padding-bottom: 0px;
-    }
-
-    #box4logos {
-        display: flex;
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #b4logo {
-        width: 20%;
-        margin: 0px 5px;
-    }
-    
-    #b4logo4{
-        width: 17%;
-        margin: 0px 5px;
-    }
-    
-    #b4logo5 {
-        width: 17%;
-        margin: 0px 5px;
-    }
     
 /*-----FOOTER-----*/
+    
 
     #footerMob {
         display: none;
@@ -835,8 +690,8 @@ p {
     header {
         max-height: none;
         padding: 50px 244px 200px 244px;
-        height: 1080px;
-        background-image: url(../images/homeBanner.jpg);
+        height: 950px;
+        background-image: url(../images/eventInfoBannerDesk.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -857,27 +712,18 @@ p {
         line-height: 2.9rem;
     }
 
-    #box3p {
-        text-align: center;
-        margin: 5px 0 0px 0;
-    }
 
     #heading2 {
         line-height: 2.2rem;
-        font-size: 1.6rem;
-        margin-bottom: 20px;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
     }
 
     #heading2para {
-        font-size: 1.2rem;
-        line-height: 1.85rem;
-        margin-bottom: 0px;
+        font-size: 1.15rem;
+        line-height: 1.8rem;
+        margin-bottom: 35px;
     }
-    
-    mark {
-    font-size: 1.2rem;
-}
-
 
     #button1 {
         font-family: 'Open Sans', sans-serif;
@@ -886,11 +732,9 @@ p {
         padding: 16px 0;
         margin-top: 20px;
     }
-
-    p {
-        font-size: 1rem;
-        line-height: 1.7rem;
-        font-weight: 400;
+    
+    h2 {
+        margin-bottom: 30px;
     }
     
     h3 {
@@ -900,78 +744,52 @@ p {
     }
     
     #box3p {
-        font-size: 0.9rem;
-        margin-bottom: 40px;
+        font-size: 1rem;
+        margin-top: 40px;
+        text-align: left;
     }
     
-    #button2 {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.2rem;
-        width: 190px;
-        padding: 16px 0;
-        font-weight: 600;
-    }
 
     /*  MAIN  */
 
-    
 
     #box1 {
-        padding: 50px 244px 0px 244px;
+        padding: 100px 244px 0 244px;
+        margin: 0 auto;
     }
 
     #box1cont1 {
-        display: grid;
-        grid-gap: 3vw;
-        position: relative;
-        transform: translate(0%, -8%);
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-gap: 4vw;
     }
 
-    #box1card1{
-        background-image: url(../images/homeImg3.png);
-        grid-column: 1 / span 6;
-        grid-row: 1 / span 6;
-        padding:6vh;     
-    }
-
-    #box1card3 {
-        display: block;
-        grid-column: 1 / span 6;
-        grid-row: 6 / span 6;
-        margin-bottom: 0px;
-        padding-right: 10vw;
-        padding-top: 12vh;
-    }
-
-    #box1card4 {
-        display: block;
-        margin-bottom: 0px;
-        grid-column: 5 / span 6;
-        grid-row: 1 / span 6;
-    }
-    
-    #box1card2 {
-        margin-bottom: 0px;
-    }
-    
+    #b1img1Ipad {
+        margin-top: 0px;
+    } 
     
 
     #box2 {
-        padding: 80px 244px 30px 244px;
+        padding: 80px 244px 30px 244px
         
     }
     
+    #b2c1 {
+        margin-bottom: 70px;
+    }
+    
+    
 
     #box3 {
-        padding: 60px 244px 80px 244px;
+        padding: 80px 244px 60px 244px;
     }
     
     #box3h1 {
-        padding-bottom: 60px;
+        margin-bottom: 0px;
     }
 
     #box4 {
-        padding: 50px 244px 80px 244px;
+        padding: 50px 244px;
     }
     
     #b4logo {

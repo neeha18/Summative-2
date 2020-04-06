@@ -11,6 +11,6 @@ function toggleMenu() {
     //TOGGLE (EITHER ADD OR REMOVE) THE .displayMenu CLASS TO #menu ELEMENT
     x.classList.toggle("displayMenu");
     //TOGGLE THE .fa-toggle-on CLASS FROM FONTAWESOME to the #navButton ELEMENT
-    y.classList.toggle("fa-toggle-on")
+    y.classList.toggle("fa-times")
 
 }
